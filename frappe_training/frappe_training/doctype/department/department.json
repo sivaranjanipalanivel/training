@@ -1,0 +1,48 @@
+{
+ "autoname": "field:department_name",
+ "creation": "2021-07-30 12:32:31.038229",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "heading_1",
+  "department_name",
+  "code",
+  "course_fee"
+ ],
+ "fields": [
+  {
+   "fieldname": "heading_1",
+   "fieldtype": "Heading",
+   "label": "Department Details"
+  },
+  {
+   "fieldname": "department_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Department Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Int",
+   "label": "Code"
+  },
+  {
+   "fieldname": "course_fee",
+   "fieldtype": "Currency",
+   "label": "Course Fee"
+  }
+ ],
+ "modified": "2021-07-31 18:34:07.345642",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Department",
+ "owner": "Administrator",
+ "permissions": [],
+ "search_fields": "department_name,code,course_fee",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,41 @@
+{
+ "modified": "2021-07-09 18:55:01.994681",
+ "editable_grid": 1,
+ "sort_field": "modified",
+ "track_changes": 1,
+ "engine": "InnoDB",
+ "istable": 1,
+ "sort_order": "DESC",
+ "doctype": "DocType",
+ "permissions": [],
+ "creation": "2021-07-09 17:09:33.283956",
+ "quick_entry": 1,
+ "name": "Category",
+ "modified_by": "Administrator",
+ "field_order": [
+  "cloth",
+  "data_2",
+  "gadgets"
+ ],
+ "module": "frappe_training",
+ "fields": [
+  {
+   "fieldname": "cloth",
+   "fieldtype": "Link",
+   "options": "Customer",
+   "label": "Cloth",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "data_2",
+   "fieldtype": "Data",
+   "label": "Fruits"
+  },
+  {
+   "fieldname": "gadgets",
+   "fieldtype": "Data",
+   "label": "Gadgets"
+  }
+ ],
+ "owner": "Administrator"
+}

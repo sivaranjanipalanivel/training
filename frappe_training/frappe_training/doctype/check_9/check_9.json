@@ -1,0 +1,119 @@
+{
+ "allow_rename": 1,
+ "autoname": "FNo.###",
+ "creation": "2021-07-28 16:03:40.364763",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fields",
+  "time",
+  "text",
+  "textt",
+  "tables",
+  "tabb",
+  "stext",
+  "options",
+  "per",
+  "head",
+  "ed",
+  "image",
+  "imhg"
+ ],
+ "fields": [
+  {
+   "fieldname": "fields",
+   "fieldtype": "Signature",
+   "label": "checkfilelds"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "Time"
+  },
+  {
+   "fieldname": "text",
+   "fieldtype": "Text Editor",
+   "label": "Text editor"
+  },
+  {
+   "fieldname": "textt",
+   "fieldtype": "Text",
+   "label": "Text"
+  },
+  {
+   "fieldname": "tables",
+   "fieldtype": "Table MultiSelect",
+   "label": "table",
+   "options": "Check_4"
+  },
+  {
+   "fieldname": "tabb",
+   "fieldtype": "Table",
+   "label": "tabbles",
+   "options": "Check_7"
+  },
+  {
+   "fieldname": "stext",
+   "fieldtype": "Small Text",
+   "label": "stext"
+  },
+  {
+   "fieldname": "options",
+   "fieldtype": "Select",
+   "label": "options",
+   "options": "option 1\noption 2\noption 3\noption 4"
+  },
+  {
+   "fieldname": "per",
+   "fieldtype": "Percent",
+   "label": "p",
+   "precision": "0"
+  },
+  {
+   "fieldname": "head",
+   "fieldtype": "Heading",
+   "label": "head",
+   "options": "Welcome"
+  },
+  {
+   "fieldname": "ed",
+   "fieldtype": "Markdown Editor",
+   "label": "ed"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "image"
+  },
+  {
+   "fieldname": "imhg",
+   "fieldtype": "Image",
+   "label": "img"
+  }
+ ],
+ "image_field": "image",
+ "modified": "2021-07-28 16:43:39.331786",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Check_9",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

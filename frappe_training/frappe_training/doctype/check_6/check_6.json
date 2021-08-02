@@ -1,0 +1,61 @@
+{
+ "autoname": "Sno.#",
+ "creation": "2021-07-28 11:06:33.663302",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "quick",
+  "check",
+  "check2",
+  "child"
+ ],
+ "fields": [
+  {
+   "fieldname": "quick",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "quick entry",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "check",
+   "fieldtype": "Data",
+   "label": "check1"
+  },
+  {
+   "fieldname": "check2",
+   "fieldtype": "Data",
+   "label": "check2"
+  },
+  {
+   "fieldname": "child",
+   "fieldtype": "Table",
+   "label": "Child",
+   "options": "Fields properties"
+  }
+ ],
+ "modified": "2021-07-28 12:04:29.311730",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "check_6",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_seen": 1
+}

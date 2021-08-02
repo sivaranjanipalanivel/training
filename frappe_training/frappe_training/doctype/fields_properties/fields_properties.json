@@ -1,0 +1,26 @@
+{
+ "creation": "2021-07-28 12:02:44.455054",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "properties"
+ ],
+ "fields": [
+  {
+   "fieldname": "properties",
+   "fieldtype": "Data",
+   "label": "Child"
+  }
+ ],
+ "istable": 1,
+ "modified": "2021-07-28 12:02:44.455054",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Fields properties",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

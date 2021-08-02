@@ -1,0 +1,232 @@
+{
+ "allow_auto_repeat": 1,
+ "allow_events_in_timeline": 1,
+ "allow_rename": 1,
+ "autoname": "format:college_name",
+ "creation": "2021-07-30 11:30:56.092287",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "college_details",
+  "college_name",
+  "started_date_and_time",
+  "phone",
+  "email",
+  "school_image",
+  "tables1",
+  "records",
+  "select_1",
+  "department",
+  "code",
+  "fold_9",
+  "section_break_10",
+  "college_address",
+  "address_line1",
+  "citytown",
+  "county",
+  "state",
+  "country",
+  "postal_code",
+  "location",
+  "section_break_19",
+  "custom_formate",
+  "section_break_18",
+  "description",
+  "from_time",
+  "to_time",
+  "column_break_24",
+  "feed_back",
+  "descriptinon",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "started_date_and_time",
+   "fieldtype": "Datetime",
+   "label": "Started Date and Time"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contact Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "school_image",
+   "fieldtype": "Attach Image",
+   "label": "College Image"
+  },
+  {
+   "fieldname": "college_details",
+   "fieldtype": "Heading",
+   "label": "College Details"
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Barcode",
+   "label": "Code"
+  },
+  {
+   "fieldname": "address_line1",
+   "fieldtype": "Data",
+   "label": "Address Line1",
+   "reqd": 1
+  },
+  {
+   "fieldname": "citytown",
+   "fieldtype": "Data",
+   "label": "City/Town ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "county",
+   "fieldtype": "Data",
+   "label": "County"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "postal_code",
+   "fieldtype": "Data",
+   "label": "Postal Code"
+  },
+  {
+   "fieldname": "college_address",
+   "fieldtype": "Heading",
+   "label": "College Address"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Table",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "depends_on": "custom_formate",
+   "fieldname": "feed_back",
+   "fieldtype": "Table",
+   "label": "Feed Back",
+   "options": "College Feedback"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "HTML",
+   "label": "HTML",
+   "options": " <p class=\"alert alert-warning\">* Fill the mandatory fields.</p>"
+  },
+  {
+   "depends_on": "custom_formate",
+   "fieldname": "descriptinon",
+   "fieldtype": "Small Text",
+   "label": "Descriptinon"
+  },
+  {
+   "depends_on": "eval:!doc.custom_format",
+   "fieldname": "location",
+   "fieldtype": "Geolocation",
+   "label": "Location"
+  },
+  {
+   "fieldname": "from_time",
+   "fieldtype": "Time",
+   "label": "From Time"
+  },
+  {
+   "fieldname": "to_time",
+   "fieldtype": "Time",
+   "label": "To Time"
+  },
+  {
+   "default": "1",
+   "fieldname": "custom_formate",
+   "fieldtype": "Check",
+   "label": "Click here for Feed Back Section"
+  },
+  {
+   "depends_on": "custom_formate",
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break",
+   "label": "INSTRUCTIONS"
+  },
+  {
+   "fieldname": "column_break_24",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "college_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "College Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "College",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "fold_9",
+   "fieldtype": "Fold"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_19",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tables1",
+   "fieldtype": "Link",
+   "label": "Tables",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "records",
+   "fieldtype": "Dynamic Link",
+   "label": "Records",
+   "options": "tables1"
+  },
+  {
+   "fieldname": "select_1",
+   "fieldtype": "Table MultiSelect",
+   "label": "Select 1",
+   "options": "DocType"
+  }
+ ],
+ "image_field": "school_image",
+ "is_submittable": 1,
+ "modified": "2021-08-02 19:31:12.365877",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "College",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

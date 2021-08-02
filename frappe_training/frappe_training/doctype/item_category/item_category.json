@@ -1,0 +1,59 @@
+{
+ "autoname": "naming_series:",
+ "creation": "2021-07-08 11:24:48.428224",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "category_name",
+  "is_active",
+  "display_order",
+  "naming_series"
+ ],
+ "fields": [
+  {
+   "fieldname": "category_name",
+   "fieldtype": "Data",
+   "label": "Category Name"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active"
+  },
+  {
+   "fieldname": "display_order",
+   "fieldtype": "Data",
+   "label": "Display Order"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Data",
+   "label": "Naming Series"
+  }
+ ],
+ "modified": "2021-07-08 15:59:59.271244",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Item Category",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

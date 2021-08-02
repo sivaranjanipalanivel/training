@@ -1,0 +1,116 @@
+{
+ "autoname": "field:cus_name",
+ "creation": "2021-07-28 10:55:13.025804",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "cus_name",
+  "age",
+  "date_of_birth",
+  "email_address",
+  "column_break_5",
+  "address_line1",
+  "address_line2",
+  "citytown",
+  "county",
+  "state",
+  "country",
+  "postal_code"
+ ],
+ "fields": [
+  {
+   "fieldname": "cus_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Customer Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "DOB"
+  },
+  {
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address_line1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Address Line1",
+   "reqd": 1
+  },
+  {
+   "fieldname": "address_line2",
+   "fieldtype": "Data",
+   "label": "Address Line2"
+  },
+  {
+   "fieldname": "citytown",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "City/Town",
+   "reqd": 1
+  },
+  {
+   "fieldname": "county",
+   "fieldtype": "Data",
+   "label": "County"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State",
+   "reqd": 1
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "postal_code",
+   "fieldtype": "Data",
+   "label": "Postal Code",
+   "reqd": 1
+  }
+ ],
+ "modified": "2021-07-28 14:41:42.422924",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Customer Detail",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_seen": 1
+}

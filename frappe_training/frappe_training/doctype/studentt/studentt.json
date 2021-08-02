@@ -1,0 +1,44 @@
+{
+ "creation": "2021-08-02 17:47:49.842213",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sheading",
+  "sam"
+ ],
+ "fields": [
+  {
+   "fieldname": "sheading",
+   "fieldtype": "Heading",
+   "label": "Student details"
+  },
+  {
+   "fieldname": "sam",
+   "fieldtype": "Link",
+   "label": "sam",
+   "options": "Student data"
+  }
+ ],
+ "modified": "2021-08-02 18:30:22.934494",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Studentt",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

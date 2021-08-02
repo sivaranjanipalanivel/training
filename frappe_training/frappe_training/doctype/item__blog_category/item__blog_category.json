@@ -1,0 +1,53 @@
+{
+ "autoname": "naming_series:",
+ "creation": "2021-07-08 17:11:02.488414",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "blog_category_name",
+  "published",
+  "naming_series"
+ ],
+ "fields": [
+  {
+   "fieldname": "blog_category_name",
+   "fieldtype": "Data",
+   "label": "Blog Category Name"
+  },
+  {
+   "fieldname": "published",
+   "fieldtype": "Data",
+   "label": "Published"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "IBC-"
+  }
+ ],
+ "modified": "2021-07-09 10:31:12.050446",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Item  Blog Category",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

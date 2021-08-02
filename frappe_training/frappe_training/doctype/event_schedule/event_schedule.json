@@ -1,0 +1,40 @@
+{
+ "creation": "2021-07-08 20:08:10.049431",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "events"
+ ],
+ "fields": [
+  {
+   "fieldname": "events",
+   "fieldtype": "Link",
+   "label": "Events",
+   "options": "Events 1"
+  }
+ ],
+ "modified": "2021-07-08 20:08:10.049431",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Event Schedule",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

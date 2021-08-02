@@ -1,0 +1,131 @@
+{
+ "autoname": "field:office_name",
+ "creation": "2021-07-30 13:16:37.595322",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company_detail",
+  "office_name",
+  "founder_name",
+  "office_opening_time",
+  "office_closing_time",
+  "office_type",
+  "section_break_7",
+  "address_and_other_details",
+  "office_address",
+  "available_employment_type",
+  "ratings_in_social_media",
+  "office_images",
+  "top_employee_programming_skill",
+  "skill",
+  "description_about_company"
+ ],
+ "fields": [
+  {
+   "fieldname": "office_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Office Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "office_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Office Type",
+   "options": "Manufacturing Technology\nIT/Consultancy\nothers",
+   "reqd": 1
+  },
+  {
+   "fieldname": "office_address",
+   "fieldtype": "Geolocation",
+   "label": "Office Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "founder_name",
+   "fieldtype": "Data",
+   "label": "Founder Name "
+  },
+  {
+   "fieldname": "ratings_in_social_media",
+   "fieldtype": "Rating",
+   "label": "Ratings In Social Media"
+  },
+  {
+   "default": "Full Time",
+   "fieldname": "available_employment_type",
+   "fieldtype": "Read Only",
+   "label": "Available Employment Type "
+  },
+  {
+   "fieldname": "description_about_company",
+   "fieldtype": "Text Editor",
+   "label": "Description About Company"
+  },
+  {
+   "fieldname": "office_images",
+   "fieldtype": "Attach Image",
+   "label": "Office Images"
+  },
+  {
+   "fieldname": "top_employee_programming_skill",
+   "fieldtype": "Heading",
+   "label": "Top Employee Programming Skill"
+  },
+  {
+   "fieldname": "skill",
+   "fieldtype": "Table MultiSelect",
+   "label": "Skill",
+   "options": "Employee Detail"
+  },
+  {
+   "fieldname": "company_detail",
+   "fieldtype": "Heading",
+   "label": "Office Detail"
+  },
+  {
+   "fieldname": "office_opening_time",
+   "fieldtype": "Time",
+   "label": "Office Opening Time"
+  },
+  {
+   "fieldname": "office_closing_time",
+   "fieldtype": "Time",
+   "label": "Office Closing Time"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "address_and_other_details",
+   "fieldtype": "Heading",
+   "label": "Address And Other Details"
+  }
+ ],
+ "issingle": 1,
+ "modified": "2021-07-30 15:13:29.521306",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Company Detail",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

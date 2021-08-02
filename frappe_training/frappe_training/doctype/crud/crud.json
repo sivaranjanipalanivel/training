@@ -1,0 +1,77 @@
+{
+ "autoname": "uname.###",
+ "creation": "2021-08-02 14:40:19.352645",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "uname",
+  "age",
+  "address",
+  "amended_from",
+  "image",
+  "imagee",
+  "trial"
+ ],
+ "fields": [
+  {
+   "fieldname": "uname",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "age"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "crud",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Image",
+   "label": "image"
+  },
+  {
+   "fieldname": "imagee",
+   "fieldtype": "Attach Image",
+   "label": "imagee"
+  },
+  {
+   "fieldname": "trial",
+   "fieldtype": "Time",
+   "label": "trial"
+  }
+ ],
+ "modified": "2021-08-02 15:33:14.427723",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "crud",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

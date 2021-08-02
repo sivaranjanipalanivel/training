@@ -1,0 +1,120 @@
+{
+ "allow_auto_repeat": 1,
+ "allow_events_in_timeline": 1,
+ "autoname": "Company.###",
+ "creation": "2021-07-31 15:09:04.229413",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company_name",
+  "address",
+  "section_break_3",
+  "employee_designation",
+  "devloper",
+  "current_level",
+  "tester",
+  "current_level_2",
+  "content_creator",
+  "current_level_3",
+  "hr",
+  "current_level_4"
+ ],
+ "fields": [
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Address",
+   "options": "Addresss"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employee_designation",
+   "fieldtype": "Heading",
+   "label": "Employee Designation"
+  },
+  {
+   "default": "0",
+   "fieldname": "devloper",
+   "fieldtype": "Check",
+   "label": "Devloper"
+  },
+  {
+   "default": "0",
+   "fieldname": "tester",
+   "fieldtype": "Check",
+   "label": "Tester"
+  },
+  {
+   "default": "0",
+   "fieldname": "content_creator",
+   "fieldtype": "Check",
+   "label": "Content Creator"
+  },
+  {
+   "default": "0",
+   "fieldname": "hr",
+   "fieldtype": "Check",
+   "label": "Hr"
+  },
+  {
+   "depends_on": "devloper",
+   "fieldname": "current_level",
+   "fieldtype": "Long Text",
+   "label": "Current Level "
+  },
+  {
+   "depends_on": "tester",
+   "fieldname": "current_level_2",
+   "fieldtype": "Long Text",
+   "label": "Current Level"
+  },
+  {
+   "depends_on": "content_creator",
+   "fieldname": "current_level_3",
+   "fieldtype": "Long Text",
+   "label": "Current Level"
+  },
+  {
+   "depends_on": "hr",
+   "fieldname": "current_level_4",
+   "fieldtype": "Small Text",
+   "label": "Current Level"
+  }
+ ],
+ "modified": "2021-08-02 15:50:29.287183",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Company",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "company_name",
+ "show_preview_popup": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

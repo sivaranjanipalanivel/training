@@ -1,0 +1,79 @@
+{
+ "autoname": "Address.###",
+ "creation": "2021-07-29 14:50:59.972109",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "door_no",
+  "streetname",
+  "city",
+  "dt",
+  "state",
+  "nation"
+ ],
+ "fields": [
+  {
+   "fieldname": "door_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Door No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "streetname",
+   "fieldtype": "Data",
+   "label": "Street Name"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "City",
+   "reqd": 1
+  },
+  {
+   "fieldname": "dt",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "District",
+   "reqd": 1
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "State",
+   "reqd": 1
+  },
+  {
+   "fieldname": "nation",
+   "fieldtype": "Data",
+   "label": "Nationality",
+   "reqd": 1
+  }
+ ],
+ "modified": "2021-07-31 15:52:29.524272",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Addresss",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

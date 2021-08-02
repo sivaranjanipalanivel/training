@@ -1,0 +1,18 @@
+{
+ "creation": "2021-08-02 20:11:43.543468",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [],
+ "fields": [],
+ "modified": "2021-08-02 20:11:43.543468",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Training  History",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

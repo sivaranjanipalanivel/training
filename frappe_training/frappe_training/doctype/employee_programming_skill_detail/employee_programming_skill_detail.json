@@ -1,0 +1,48 @@
+{
+ "autoname": "Employee Programming Skill Detail.###",
+ "creation": "2021-07-30 13:55:49.731013",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_name",
+  "programming_language",
+  "coding",
+  "html"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "programming_language",
+   "fieldtype": "Text Editor",
+   "label": "Programming Language"
+  },
+  {
+   "fieldname": "coding",
+   "fieldtype": "Code",
+   "label": "Coding"
+  },
+  {
+   "fieldname": "html",
+   "fieldtype": "HTML Editor",
+   "label": "HTML "
+  }
+ ],
+ "istable": 1,
+ "modified": "2021-07-31 12:31:47.836761",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Employee Programming Skill Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

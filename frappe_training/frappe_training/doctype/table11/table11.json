@@ -1,0 +1,89 @@
+{
+ "creation": "2021-08-02 19:50:59.350721",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "data_1",
+  "data_2",
+  "data_3",
+  "data_4",
+  "data_5",
+  "data_6",
+  "data_7",
+  "data_8",
+  "data_9",
+  "data_10",
+  "data_11",
+  "data_12",
+  "data_13",
+  "data_14"
+ ],
+ "fields": [
+  {
+   "fieldname": "data_1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_3",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_4",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_5",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_6",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_7",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_8",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_9",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_10",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_11",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_12",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_13",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_14",
+   "fieldtype": "Data"
+  }
+ ],
+ "modified": "2021-08-02 19:55:01.766384",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Table11",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

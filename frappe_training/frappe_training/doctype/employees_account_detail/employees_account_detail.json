@@ -1,0 +1,111 @@
+{
+ "autoname": "Account detail.###",
+ "creation": "2021-07-30 12:42:22.892427",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_account_details",
+  "employee_name",
+  "account_holder_name",
+  "bank_name",
+  "ac_no",
+  "account_type",
+  "bank_branch_and_ifsc_code",
+  "pan_no",
+  "amended_from",
+  "employee_singnature"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_account_details",
+   "fieldtype": "Heading",
+   "label": "Employee Account Details"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "account_holder_name",
+   "fieldtype": "Data",
+   "label": "Account Holder Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "bank_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Bank Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "bank_branch_and_ifsc_code",
+   "fieldtype": "Data",
+   "in_standard_filter": 1,
+   "label": "Bank Branch And IFSC Code",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ac_no",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "A/C No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pan_no",
+   "fieldtype": "Data",
+   "label": "Pan No.",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Employees Account Detail",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "account_type",
+   "fieldtype": "Select",
+   "label": "Account Type",
+   "options": "Current\nSavings",
+   "reqd": 1
+  },
+  {
+   "fieldname": "employee_singnature",
+   "fieldtype": "Signature",
+   "label": "Employee Singnature"
+  }
+ ],
+ "is_submittable": 1,
+ "modified": "2021-07-30 12:45:51.459535",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Employees Account Detail",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

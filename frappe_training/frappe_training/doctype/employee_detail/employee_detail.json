@@ -1,0 +1,247 @@
+{
+ "allow_events_in_timeline": 1,
+ "autoname": "naming_series:",
+ "beta": 1,
+ "creation": "2021-07-30 11:32:19.338653",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_contact_detail",
+  "employee_first_name",
+  "employee_last_name",
+  "employee_contact_number",
+  "employee_email_id",
+  "employee_address",
+  "employee_country",
+  "employee_uniform_colour",
+  "employee_user_name",
+  "employee_password",
+  "column_break_column",
+  "employee_education_details",
+  "10th_mark",
+  "enter_in_percentage",
+  "12th_mark",
+  "enter_in_percent",
+  "college_grade_in_cgpa",
+  "certified_courseother_education_details",
+  "resume",
+  "section_break_16",
+  "top_programming_skills_of_employee",
+  "skills",
+  "employee_emergency_contact_details",
+  "enter_the_detail",
+  "work_experience",
+  "from",
+  "to",
+  "total_number_of__years",
+  "job_role",
+  "naming_series",
+  "description_about_the_role",
+  "image"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_address",
+   "fieldtype": "Small Text",
+   "label": "Employee Address"
+  },
+  {
+   "fieldname": "employee_last_name",
+   "fieldtype": "Data",
+   "label": "Employee Last Name"
+  },
+  {
+   "fieldname": "employee_country",
+   "fieldtype": "Select",
+   "label": "Employee Country",
+   "options": "India\nUS\nCanada\nChina\nOthers"
+  },
+  {
+   "fieldname": "employee_contact_detail",
+   "fieldtype": "Heading",
+   "label": "Employee Contact Detail",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "employee_first_name",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "Employee First Name ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "employee_contact_number",
+   "fieldtype": "Int",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "Employee Contact Number"
+  },
+  {
+   "fieldname": "employee_email_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee E-mail Id"
+  },
+  {
+   "fieldname": "column_break_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "employee_education_details",
+   "fieldtype": "Heading",
+   "label": "Employee Education Details"
+  },
+  {
+   "fieldname": "10th_mark",
+   "fieldtype": "Int",
+   "label": "10th Mark "
+  },
+  {
+   "fieldname": "enter_in_percentage",
+   "fieldtype": "Percent",
+   "label": "Enter In Percentage"
+  },
+  {
+   "fieldname": "12th_mark",
+   "fieldtype": "Int",
+   "label": "12th Mark"
+  },
+  {
+   "fieldname": "enter_in_percent",
+   "fieldtype": "Percent",
+   "label": "Enter In Percent"
+  },
+  {
+   "fieldname": "college_grade_in_cgpa",
+   "fieldtype": "Float",
+   "label": "UG Grade In CGPA"
+  },
+  {
+   "fieldname": "certified_courseother_education_details",
+   "fieldtype": "Long Text",
+   "label": "Certified Course/Other Education Details"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employee_emergency_contact_details",
+   "fieldtype": "Heading",
+   "label": "Employee Emergency Contact Detail"
+  },
+  {
+   "fieldname": "enter_the_detail",
+   "fieldtype": "Table",
+   "label": "Enter The Detail",
+   "options": "Employee Emergency Contact Detail"
+  },
+  {
+   "fieldname": "work_experience",
+   "fieldtype": "Heading",
+   "label": "Work Experience"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Date",
+   "label": "From"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Date",
+   "label": "To"
+  },
+  {
+   "fieldname": "total_number_of__years",
+   "fieldtype": "Float",
+   "label": "Total Number Of  Years"
+  },
+  {
+   "fieldname": "job_role",
+   "fieldtype": "Data",
+   "label": "Job Role"
+  },
+  {
+   "default": "If you have experienced more then 1 role .Enter the role here and also about the role details. ",
+   "fieldname": "description_about_the_role",
+   "fieldtype": "Long Text",
+   "label": "Description About The Role",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "resume",
+   "fieldtype": "Attach",
+   "label": "Resume"
+  },
+  {
+   "fieldname": "employee_user_name",
+   "fieldtype": "Data",
+   "label": "Employee User Name"
+  },
+  {
+   "fieldname": "employee_password",
+   "fieldtype": "Password",
+   "label": "Employee Password"
+  },
+  {
+   "fieldname": "employee_uniform_colour",
+   "fieldtype": "Color",
+   "label": "Employee Uniform Colour"
+  },
+  {
+   "fieldname": "skills",
+   "fieldtype": "Link",
+   "label": "Skills",
+   "options": "Employee Programming Skill Detail"
+  },
+  {
+   "fieldname": "top_programming_skills_of_employee",
+   "fieldtype": "Heading",
+   "label": "Top Programming Skills Of Employee"
+  },
+  {
+   "description": "Must Fill The Form",
+   "fieldname": "naming_series",
+   "fieldtype": "Data",
+   "label": "Naming Series",
+   "options": "pre.####",
+   "print_hide": 1
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "image"
+  }
+ ],
+ "image_field": "image",
+ "modified": "2021-07-31 16:51:50.803991",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Employee Detail",
+ "name_case": "UPPER CASE",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "timeline_field": "skills",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

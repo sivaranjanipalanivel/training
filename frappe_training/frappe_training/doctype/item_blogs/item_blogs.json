@@ -1,0 +1,124 @@
+{
+ "autoname": "naming_series:",
+ "creation": "2021-07-09 11:36:40.373422",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "blog_name",
+  "published_on",
+  "column_break_3",
+  "column_break_4",
+  "published",
+  "section_break_5",
+  "banner_image",
+  "blog_category",
+  "blog_category_name",
+  "tag_section",
+  "blog_tag_list",
+  "events_section",
+  "event_schedule",
+  "naming_series"
+ ],
+ "fields": [
+  {
+   "fieldname": "blog_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Blog Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "published_on",
+   "fieldtype": "Date",
+   "label": "Published On"
+  },
+  {
+   "default": "0",
+   "fieldname": "published",
+   "fieldtype": "Check",
+   "label": "Published"
+  },
+  {
+   "fieldname": "banner_image",
+   "fieldtype": "Attach Image",
+   "label": "Banner Image"
+  },
+  {
+   "fieldname": "blog_category",
+   "fieldtype": "Link",
+   "label": "Blog Category",
+   "options": "Item Blog Tag"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "blog_category_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Blog Category Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tag_section",
+   "fieldtype": "Section Break",
+   "label": "Tag"
+  },
+  {
+   "fieldname": "blog_tag_list",
+   "fieldtype": "Table MultiSelect",
+   "label": "Blog Tag List",
+   "options": "Item Blog Tag"
+  },
+  {
+   "fieldname": "events_section",
+   "fieldtype": "Section Break",
+   "label": "Events "
+  },
+  {
+   "fieldname": "event_schedule",
+   "fieldtype": "Table",
+   "label": "Event Schedule",
+   "options": "Temple Event"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming series",
+   "options": "CAT-"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "modified": "2021-07-09 14:00:10.686297",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Item Blogs",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

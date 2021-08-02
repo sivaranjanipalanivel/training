@@ -1,0 +1,277 @@
+{
+ "autoname": "id.###",
+ "creation": "2021-07-30 15:11:15.247233",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_details",
+  "warning",
+  "column_break_3",
+  "section_break_4",
+  "basic_info",
+  "id",
+  "middle_name",
+  "date_of_birth",
+  "resume",
+  "column_break_6",
+  "info",
+  "first_name",
+  "last_name",
+  "photo",
+  "section_break_13",
+  "employee_address",
+  "address",
+  "detail",
+  "location",
+  "section_break_17",
+  "employee_salary",
+  "salary",
+  "table_22",
+  "section_break_21",
+  "education_details",
+  "employee_education",
+  "table_25",
+  "section_break_24",
+  "employee_contact",
+  "employe_contact",
+  "table_28",
+  "section_break_27",
+  "employee_benifits",
+  "employe_benifits",
+  "table_32",
+  "section_break_30",
+  "favorite_color",
+  "id_barcode",
+  "column_break_32",
+  "employee_performance"
+ ],
+ "fields": [
+  {
+   "fieldname": "warning",
+   "fieldtype": "HTML",
+   "label": "Warning",
+   "options": "  <p class=\"alert alert-warning\">* Fill the mandatory fields.</p>\n"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee ID"
+  },
+  {
+   "fetch_if_empty": 1,
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last name"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach Image",
+   "label": "photo"
+  },
+  {
+   "fieldname": "resume",
+   "fieldtype": "Attach",
+   "label": "Resume"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of birth"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "addresss.door_no",
+   "fetch_if_empty": 1,
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "label": "Address",
+   "options": "Addresss"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Geolocation",
+   "label": "Location"
+  },
+  {
+   "fieldname": "employee_address",
+   "fieldtype": "Heading",
+   "label": "EMPLOYEE ADDRESS"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employee_salary",
+   "fieldtype": "Heading",
+   "label": "EMPLOYEE SALARY"
+  },
+  {
+   "fieldname": "employee_details",
+   "fieldtype": "Heading",
+   "label": "EMPLOYEE DETAILS"
+  },
+  {
+   "fieldname": "basic_info",
+   "fieldtype": "Heading",
+   "label": "BASIC INFO"
+  },
+  {
+   "fieldname": "salary",
+   "fieldtype": "Link",
+   "label": "Salary",
+   "options": "Employee Salary Details"
+  },
+  {
+   "fieldname": "education_details",
+   "fieldtype": "Heading",
+   "label": "Education Details"
+  },
+  {
+   "fieldname": "section_break_21",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employee_education",
+   "fieldtype": "Link",
+   "label": "Education details",
+   "options": "Employee Education Details"
+  },
+  {
+   "fieldname": "section_break_24",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employee_contact",
+   "fieldtype": "Heading",
+   "label": "EMPLOYEE CONTACT"
+  },
+  {
+   "fieldname": "employe_contact",
+   "fieldtype": "Link",
+   "label": "Employee contact",
+   "options": "Employee Contact Detail"
+  },
+  {
+   "fieldname": "section_break_27",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employee_benifits",
+   "fieldtype": "Heading",
+   "label": "EMPLOYEE_BENIFITS"
+  },
+  {
+   "fieldname": "employe_benifits",
+   "fieldtype": "Link",
+   "label": "Employee Benifits",
+   "options": "Employee Benifit Detail"
+  },
+  {
+   "fieldname": "section_break_30",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "favorite_color",
+   "fieldtype": "Color",
+   "label": "Favorite_color"
+  },
+  {
+   "fieldname": "column_break_32",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "employee_performance",
+   "fieldtype": "Rating",
+   "label": "Employee performance"
+  },
+  {
+   "fieldname": "id_barcode",
+   "fieldtype": "Barcode",
+   "label": "ID BARCODE"
+  },
+  {
+   "fieldname": "info",
+   "fieldtype": "Read Only",
+   "options": "Fill All BASIC INFO"
+  },
+  {
+   "fieldname": "table_28",
+   "fieldtype": "Table",
+   "options": "Employee Contact Detail"
+  },
+  {
+   "fieldname": "table_32",
+   "fieldtype": "Table",
+   "options": "Employee Benifit Detail"
+  },
+  {
+   "fieldname": "table_25",
+   "fieldtype": "Table",
+   "options": "Employee Education Details"
+  },
+  {
+   "fieldname": "table_22",
+   "fieldtype": "Table",
+   "options": "Employee Salary Details"
+  },
+  {
+   "fetch_from": "address.door_no",
+   "fieldname": "detail",
+   "fieldtype": "Link",
+   "label": "detail",
+   "options": "Addresss"
+  }
+ ],
+ "modified": "2021-07-31 15:49:00.472483",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Employee INFO",
+ "name_case": "Title Case",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

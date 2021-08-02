@@ -1,0 +1,124 @@
+{
+ "autoname": "field:staff_name",
+ "creation": "2021-07-30 12:28:01.530930",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "staff_details",
+  "staff_name",
+  "contact_number",
+  "email",
+  "address_line1",
+  "city__town",
+  "county",
+  "state",
+  "country",
+  "postal_code",
+  "column_break_6",
+  "description",
+  "text",
+  "mark_down"
+ ],
+ "fields": [
+  {
+   "fieldname": "staff_details",
+   "fieldtype": "Heading",
+   "label": "Staff Details"
+  },
+  {
+   "fieldname": "staff_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Staff Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contact Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "address_line1",
+   "fieldtype": "Data",
+   "label": "Address line1"
+  },
+  {
+   "fieldname": "city__town",
+   "fieldtype": "Data",
+   "label": "City / Town"
+  },
+  {
+   "fieldname": "text",
+   "fieldtype": "Small Text",
+   "label": "Text"
+  },
+  {
+   "fieldname": "county",
+   "fieldtype": "Data",
+   "label": "County"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Table MultiSelect",
+   "label": "Country",
+   "options": "College"
+  },
+  {
+   "fieldname": "postal_code",
+   "fieldtype": "Data",
+   "label": "Postal Code"
+  },
+  {
+   "fieldname": "mark_down",
+   "fieldtype": "Markdown Editor",
+   "label": "Mark Down"
+  }
+ ],
+ "modified": "2021-07-30 19:57:22.050896",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Staff",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

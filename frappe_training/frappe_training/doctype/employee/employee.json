@@ -1,0 +1,323 @@
+{
+ "allow_events_in_timeline": 1,
+ "autoname": "Employee.####",
+ "creation": "2021-07-31 12:26:17.149903",
+ "description": "this is an empoloee table",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_details",
+  "warning",
+  "section_break_3",
+  "basic_info",
+  "employee_id",
+  "middle_name",
+  "date_of_birth",
+  "resume",
+  "column_break_6",
+  "employee",
+  "first_name",
+  "last_name",
+  "image",
+  "signature",
+  "section_break_14",
+  "employee_address",
+  "address",
+  "door_no",
+  "street_name",
+  "city",
+  "district",
+  "state",
+  "nationality",
+  "section_break_24",
+  "emergency_address",
+  "section_break_23",
+  "employee_salary",
+  "salary",
+  "section_break_27",
+  "education_detail",
+  "education",
+  "section_break_30",
+  "employee_contact_detail",
+  "employee_contact",
+  "section_break_33",
+  "employee_benifit",
+  "benifit",
+  "section_break_36",
+  "employee_skils",
+  "proggraming",
+  "designing",
+  "testing",
+  "section_break_41",
+  "company_detail",
+  "company",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_details",
+   "fieldtype": "Heading",
+   "label": "Employee Details"
+  },
+  {
+   "fieldname": "warning",
+   "fieldtype": "HTML",
+   "label": "Warning"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "basic_info",
+   "fieldtype": "Heading",
+   "label": "Basic Info"
+  },
+  {
+   "description": "this is employee id field",
+   "fieldname": "employee_id",
+   "fieldtype": "Data",
+   "in_standard_filter": 1,
+   "label": "Employee Id",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name"
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Heading",
+   "label": "*Fill Mandatory Fields"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date Of Birth"
+  },
+  {
+   "fieldname": "resume",
+   "fieldtype": "Attach",
+   "label": "Resume"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employee_address",
+   "fieldtype": "Heading",
+   "label": "Employee Address"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "label": "Address",
+   "options": "Addresss"
+  },
+  {
+   "fetch_from": "address.door_no",
+   "fieldname": "door_no",
+   "fieldtype": "Read Only",
+   "label": "Door no"
+  },
+  {
+   "fetch_from": "address.streetname",
+   "fieldname": "street_name",
+   "fieldtype": "Read Only",
+   "label": "Street Name"
+  },
+  {
+   "fetch_from": "address.city",
+   "fieldname": "city",
+   "fieldtype": "Read Only",
+   "label": "city"
+  },
+  {
+   "fetch_from": "address.dt",
+   "fieldname": "district",
+   "fieldtype": "Read Only",
+   "label": "District"
+  },
+  {
+   "fetch_from": "address.state",
+   "fieldname": "state",
+   "fieldtype": "Read Only",
+   "label": "State"
+  },
+  {
+   "fetch_from": "address.nation",
+   "fieldname": "nationality",
+   "fieldtype": "Read Only",
+   "label": "Nationality"
+  },
+  {
+   "fieldname": "section_break_23",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employee_salary",
+   "fieldtype": "Heading",
+   "label": "Employee Salary"
+  },
+  {
+   "fieldname": "salary",
+   "fieldtype": "Link",
+   "label": "Salary",
+   "options": "Salary Detail"
+  },
+  {
+   "fieldname": "section_break_27",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "education_detail",
+   "fieldtype": "Heading",
+   "label": "Education Detail"
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Link",
+   "label": "Education ",
+   "options": "Education Detail"
+  },
+  {
+   "fieldname": "section_break_30",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employee_contact",
+   "fieldtype": "Link",
+   "label": "Employee Contact",
+   "options": "Employee Contact Detail"
+  },
+  {
+   "fieldname": "employee_contact_detail",
+   "fieldtype": "Heading",
+   "label": "Employee Contact Detail"
+  },
+  {
+   "fieldname": "section_break_33",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employee_benifit",
+   "fieldtype": "Heading",
+   "label": "Employee Benifit"
+  },
+  {
+   "fieldname": "benifit",
+   "fieldtype": "Link",
+   "label": "Benifit",
+   "options": "Employee Benifit Detail"
+  },
+  {
+   "fieldname": "section_break_36",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employee_skils",
+   "fieldtype": "Heading",
+   "label": "Employee Skils"
+  },
+  {
+   "fieldname": "proggraming",
+   "fieldtype": "Rating",
+   "label": "Proggraming"
+  },
+  {
+   "fieldname": "designing",
+   "fieldtype": "Rating",
+   "label": "Designing"
+  },
+  {
+   "fieldname": "testing",
+   "fieldtype": "Rating",
+   "label": "Testing"
+  },
+  {
+   "fieldname": "section_break_41",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company_detail",
+   "fieldtype": "Heading",
+   "label": "Company Detail"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "signature"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Employee",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "emergency_address",
+   "fieldtype": "Table",
+   "label": "Emergency Address",
+   "options": "Employee Emergency Contact"
+  },
+  {
+   "fieldname": "section_break_24",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "image_field": "image",
+ "max_attachments": 1,
+ "modified": "2021-08-02 19:31:04.186156",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Employee",
+ "nsm_parent_field": "parent_employee",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "read": 1,
+   "role": "System Manager"
+  }
+ ],
+ "search_fields": "company",
+ "show_name_in_global_search": 1,
+ "show_preview_popup": 1,
+ "sort_field": "employee_id",
+ "sort_order": "ASC",
+ "timeline_field": "company",
+ "title_field": "employee_id"
+}

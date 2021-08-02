@@ -1,0 +1,184 @@
+{
+ "autoname": "field:student_name",
+ "creation": "2021-07-30 11:51:39.825762",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "student_details",
+  "roll_no",
+  "student_name",
+  "gender",
+  "dob",
+  "age",
+  "phone",
+  "data_6",
+  "favorite_color",
+  "is_satisfied",
+  "12th_percentage",
+  "sing",
+  "section_break_8",
+  "student_address",
+  "address_line1",
+  "cirytown",
+  "county",
+  "state",
+  "country",
+  "postal_code",
+  "student_department",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_details",
+   "fieldtype": "Heading",
+   "label": "Student Details"
+  },
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Student Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age "
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "DOB",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "label": "Phone",
+   "no_copy": 1,
+   "print_hide": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "data_6",
+   "fieldtype": "Data",
+   "label": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "student_address",
+   "fieldtype": "Heading",
+   "label": "Student Address"
+  },
+  {
+   "fieldname": "roll_no",
+   "fieldtype": "Int",
+   "label": "Roll No"
+  },
+  {
+   "fieldname": "address_line1",
+   "fieldtype": "Data",
+   "label": "Address Line1"
+  },
+  {
+   "fieldname": "cirytown",
+   "fieldtype": "Data",
+   "label": "Ciry/Town"
+  },
+  {
+   "fieldname": "county",
+   "fieldtype": "Data",
+   "label": "County"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "postal_code",
+   "fieldtype": "Data",
+   "label": "Postal code"
+  },
+  {
+   "description": "Mention the student department for checking",
+   "fieldname": "student_department",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Student Department ",
+   "options": "Department",
+   "reqd": 1
+  },
+  {
+   "fieldname": "favorite_color",
+   "fieldtype": "Color",
+   "label": "Favorite Color"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "\nMale\nFemale\nOthers",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_satisfied",
+   "fieldtype": "Check",
+   "label": "Is Satisfied"
+  },
+  {
+   "fieldname": "12th_percentage",
+   "fieldtype": "Percent",
+   "label": "12th Percentage"
+  },
+  {
+   "fieldname": "sing",
+   "fieldtype": "Signature",
+   "label": "sing"
+  },
+  {
+   "default": "Only for 12th  Students",
+   "fieldname": "description",
+   "fieldtype": "Read Only",
+   "label": "Description"
+  }
+ ],
+ "modified": "2021-07-31 18:38:56.112232",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Student",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

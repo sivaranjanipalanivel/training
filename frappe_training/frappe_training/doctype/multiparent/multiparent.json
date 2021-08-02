@@ -1,0 +1,46 @@
+{
+ "creation": "2021-08-02 16:03:16.495986",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "native",
+  "select"
+ ],
+ "fields": [
+  {
+   "fieldname": "native",
+   "fieldtype": "Data",
+   "label": "Native"
+  },
+  {
+   "fieldname": "select",
+   "fieldtype": "Table MultiSelect",
+   "label": "Select",
+   "options": "Multiselect"
+  }
+ ],
+ "modified": "2021-08-02 16:05:18.694263",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "MultiParent",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

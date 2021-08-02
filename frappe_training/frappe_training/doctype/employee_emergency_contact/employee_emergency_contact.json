@@ -1,0 +1,52 @@
+{
+ "autoname": "EmergencyAddress.####",
+ "creation": "2021-08-02 16:19:37.960444",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "phone_number",
+  "person_name",
+  "relationship",
+  "address"
+ ],
+ "fields": [
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "person_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Person Name"
+  },
+  {
+   "fieldname": "relationship",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Relationship",
+   "options": "Father\nMother\nRelative\nFriend"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Address",
+   "options": "Addresss"
+  }
+ ],
+ "istable": 1,
+ "modified": "2021-08-02 19:10:57.877323",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Employee Emergency Contact",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

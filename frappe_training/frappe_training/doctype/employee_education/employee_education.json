@@ -1,0 +1,93 @@
+{
+ "creation": "2021-07-30 12:05:11.081516",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sslc__insitue",
+  "sslc",
+  "hsc__insitue",
+  "hsc",
+  "ug_insitue",
+  "ug",
+  "pg__insitue",
+  "pg"
+ ],
+ "fields": [
+  {
+   "fieldname": "sslc",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "SSLC",
+   "reqd": 1
+  },
+  {
+   "fieldname": "hsc",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "HSC",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ug",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "UG",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pg",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "PG",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sslc__insitue",
+   "fieldtype": "Text",
+   "label": "SSLC  insitue",
+   "reqd": 1
+  },
+  {
+   "fieldname": "hsc__insitue",
+   "fieldtype": "Long Text",
+   "label": "HSC  insitue",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ug_insitue",
+   "fieldtype": "Long Text",
+   "label": "UG insitue",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pg__insitue",
+   "fieldtype": "Text",
+   "label": "PG  insitue",
+   "reqd": 1
+  }
+ ],
+ "modified": "2021-07-30 16:50:19.101503",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Employee education",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

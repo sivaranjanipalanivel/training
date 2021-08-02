@@ -1,0 +1,94 @@
+{
+ "field_order": [
+  "employee_name",
+  "leave_taken_by_employee",
+  "total_working_day",
+  "total_salary",
+  "salary_slip_bar_code",
+  "salary_status",
+  "paid",
+  "not_paid"
+ ],
+ "doctype": "DocType",
+ "modified": "2021-07-30 13:35:34.653176",
+ "permissions": [
+  {
+   "report": 1,
+   "email": 1,
+   "delete": 1,
+   "role": "System Manager",
+   "create": 1,
+   "export": 1,
+   "share": 1,
+   "write": 1,
+   "read": 1,
+   "print": 1
+  }
+ ],
+ "sort_field": "modified",
+ "creation": "2021-07-30 12:59:57.162862",
+ "name": "Employee Salary Detail",
+ "quick_entry": 1,
+ "track_changes": 1,
+ "modified_by": "Administrator",
+ "engine": "InnoDB",
+ "fields": [
+  {
+   "reqd": 1,
+   "in_list_view": 1,
+   "label": "Employee Name",
+   "fieldtype": "Data",
+   "fieldname": "employee_name"
+  },
+  {
+   "default": "Eg.10 days",
+   "fieldname": "leave_taken_by_employee",
+   "reqd": 1,
+   "in_list_view": 1,
+   "label": "Leave Taken By Employee ",
+   "fieldtype": "Data"
+  },
+  {
+   "reqd": 1,
+   "in_list_view": 1,
+   "label": "Total Working Day",
+   "fieldtype": "Data",
+   "fieldname": "total_working_day"
+  },
+  {
+   "bold": 1,
+   "fieldname": "total_salary",
+   "reqd": 1,
+   "in_list_view": 1,
+   "label": "Total Salary",
+   "fieldtype": "Currency"
+  },
+  {
+   "label": "Salary Slip Bar Code",
+   "fieldtype": "Barcode",
+   "fieldname": "salary_slip_bar_code"
+  },
+  {
+   "label": "Salary Status",
+   "fieldtype": "Heading",
+   "fieldname": "salary_status"
+  },
+  {
+   "label": "Paid",
+   "fieldtype": "Check",
+   "fieldname": "paid",
+   "default": "0"
+  },
+  {
+   "label": "Not Paid",
+   "fieldtype": "Check",
+   "fieldname": "not_paid",
+   "default": "0"
+  }
+ ],
+ "module": "frappe_training",
+ "autoname": "Employee Salary.###",
+ "editable_grid": 1,
+ "sort_order": "DESC",
+ "owner": "Administrator"
+}

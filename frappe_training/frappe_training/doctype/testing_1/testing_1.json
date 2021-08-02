@@ -1,0 +1,51 @@
+{
+ "allow_import": 1,
+ "autoname": "Prompt",
+ "creation": "2021-08-02 13:20:42.752639",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "native"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "native",
+   "fieldtype": "Link",
+   "label": "Native",
+   "options": "Field"
+  }
+ ],
+ "modified": "2021-08-02 15:13:29.714401",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Testing_1",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "show_name_in_global_search": 1,
+ "show_preview_popup": 1,
+ "sort_field": "native",
+ "sort_order": "ASC",
+ "title_field": "name1",
+ "track_changes": 1
+}

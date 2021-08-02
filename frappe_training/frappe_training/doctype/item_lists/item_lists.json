@@ -1,0 +1,121 @@
+{
+ "autoname": "naming_series:",
+ "creation": "2021-07-12 13:06:32.351400",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_name",
+  "item_price",
+  "item__old_price",
+  "section_break_4",
+  "sku",
+  "is_active",
+  "short_description",
+  "long_description",
+  "description",
+  "highlights",
+  "status",
+  "item",
+  "item_category_mapping",
+  "naming_series"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "label": "Item Name"
+  },
+  {
+   "fieldname": "item_price",
+   "fieldtype": "Float",
+   "label": "Item Price"
+  },
+  {
+   "fieldname": "item__old_price",
+   "fieldtype": "Float",
+   "label": "Item  Old Price "
+  },
+  {
+   "fieldname": "sku",
+   "fieldtype": "Data",
+   "label": "SKU"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active"
+  },
+  {
+   "fieldname": "short_description",
+   "fieldtype": "Text",
+   "label": "Short Description"
+  },
+  {
+   "fieldname": "long_description",
+   "fieldtype": "Long Text",
+   "label": "Long Description"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "highlights",
+   "fieldtype": "Table",
+   "label": "Highlights",
+   "options": "Highlights"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Approved\nRejected\nWaiting for Approval"
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Data",
+   "label": "Item"
+  },
+  {
+   "fieldname": "item_category_mapping",
+   "fieldtype": "Data",
+   "label": "Item Category Mapping"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "LI-"
+  }
+ ],
+ "modified": "2021-07-12 14:04:31.499333",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Item Lists",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,78 @@
+{
+ "autoname": "Gb.######",
+ "creation": "2021-07-27 15:26:43.899165",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sno",
+  "indexx",
+  "readonly",
+  "uni",
+  "setonly",
+  "childtable"
+ ],
+ "fields": [
+  {
+   "default": "Can't Editable",
+   "fieldname": "readonly",
+   "fieldtype": "Data",
+   "label": "Read only",
+   "read_only": 1
+  },
+  {
+   "default": "Can'r Editable",
+   "fieldname": "uni",
+   "fieldtype": "Data",
+   "label": "Uni",
+   "unique": 1
+  },
+  {
+   "fieldname": "setonly",
+   "fieldtype": "Data",
+   "label": "Set Only",
+   "set_only_once": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "indexx",
+   "fieldtype": "Data",
+   "label": "indexx"
+  },
+  {
+   "fieldname": "sno",
+   "fieldtype": "Data",
+   "label": "sno",
+   "unique": 1
+  },
+  {
+   "fieldname": "childtable",
+   "fieldtype": "Table",
+   "label": "Childtable",
+   "options": "Check_2"
+  }
+ ],
+ "modified": "2021-07-27 16:57:20.572734",
+ "modified_by": "Administrator",
+ "module": "frappe_training",
+ "name": "Check_1",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
